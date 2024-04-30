@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website Design</title>
+
+    <!-- STYLE CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- STYLE CSS LINK -->
+
+    <!-- BOOTSTRAP CDN LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- BOOTSTRAP CDN LINK -->
+
+
+
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- FONT AWESOME CDN -->
+
+
+
+    <!-- GOOGLE FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONTS LINK -->
+</head>
+
+<body>
+    
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-sm" id="navbar">
+    <a href="index.html" class="navbar-brand" id="logo"><img src="images/Krem Merah Sederhana Ilustrasi Katering Rumahan Logo (1) - Copy.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        
+        <li class="nav-item">
+          <a href="home.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="menu.html" class="nav-link">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="order.html" class="nav-link">Order</a>
+        </li>
+        <li class="nav-item">
+          <a href="review.html" class="nav-link">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a href="kontak.html" class="nav-link">Kontak Kami</a>
+        </li>
+      </ul>
+  
+      <form class="d-flex">
+        <input type="text" class="form-control me-2" placeholder="Search" required>
+        <button type="button" id="btn">Search</button>
+      </form>
+  
+    </div>
+  </nav>
+  <!-- Navbar End -->
+<!-- Our Menu Start -->
+<section class="menu" id="menu">
+    <h3>Menu</h3>
+    <h2>Menu Selengkapnya <i class="fa-solid fa-arrow-down"></i></h2>
+  
+  
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/Telur Balado Recipe (Indonesian Hard-Boiled Eggs in Sambal Balado)-modified.png" alt="">
+          <div class="card-body">
+            <h3>Telur Balado</h3>
+            <h6>Perpaduan Rasa Pedas, Manis, dan Gurih yang Menggoda Selera</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 20.000 <i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/Kare Ayam Bali (Balinese Chicken Curry)-modified.png" alt="">
+          <div class="card-body">
+            <h3>Kare Ayam Bali</h3>
+            <h6> Kare Ayam Bali dengan perpaduan rempah-rempah khas Bali yang kaya dan gurih.</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 30.000<i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/Resep Tongseng Ayam dari @dhiahoddie-modified.png" alt="">
+          <div class="card-body">
+            <h3>Tongseng</h3>
+            <h6>Tongseng ayam adalah hidangan berkuah gurih dan pedas yang berasal dari Jawa Tengah.</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 25.000 <i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/Pineapple_Fried_Rice.png" alt="">
+          <div class="card-body">
+            <h3>Nasi Goreng Sea Food</h3>
+            <h6>Nasi goreng pulen dengan isian seafood segar, menghasilkan sajian yang gurih, lezat, dan penuh aroma laut</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 27.000 <i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+  
+  
+    </div>
+  
+  
+  
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/Kepiting Saos Padang-modified.png" alt="">
+          <div class="card-body">
+            <h3>Kepiting Saus Padang</h3>
+            <h6>Hidangan ikonik yang memadukan kelezatan kepiting segar dengan saus Padang yang kaya rasa</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 35.000 <i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/Vegan Gado-Gado Salad _ My Green Passion-modified.png" alt="">
+          <div class="card-body">
+            <h3>Gado-Gado</h3>
+            <h6> Hidangan salad khas Indonesia yang terkenal dengan kelezatannya</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 17.000 <i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/download (2)-modified.png" alt="">
+          <div class="card-body">
+            <h3>Sup Matcha</h3>
+            <h6>Sup matcha adalah hidangan kreatif yang menggabungkan rasa matcha yang khas dengan kehangatan sup.</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 30.000 <i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/e3101f57-7813-4795-9a4a-0b28a89f702a-modified.png" alt="">
+          <div class="card-body">
+            <h3>Nasi Campur</h3>
+            <h6>Hidangan Nusantara yang terkenal dengan kekayaan rasa dan variasi lauknya,</h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 15.000 <i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+  
+  
+    </div>
+  </section>
+  <!-- Our Menu End -->
+  
+  
+  
+  
+  
+  <div class="container">
+    <div class="line" style="width: 100%; height: 2px; background-color: #e53937;"></div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <!-- Our Menu Start -->
+  <section class="menu" id="menu">
+    <h3> Menu Best Seller</h3>
+  
+  
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/h o l l a-modified.png" alt="">
+          <div class="card-body">
+            <h3>Es Dawet</h3>
+            <h6></h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 12.000 <i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/cb7a628b-7b8e-4d88-8164-0a37f304d651-modified.png" alt="">
+          <div class="card-body">
+            <h3>Nasi Uduk</h3>
+            <h6></h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 15.000 <i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/93da1813-238d-44ff-94a2-08c744120554-modified.png" alt="">
+          <div class="card-body">
+            <h3>Soto Ayam</h3>
+            <h6></h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 18.000 <i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/faaf30f3-0b55-4c28-bcc4-7a33c28299b4-modified.png" alt="">
+          <div class="card-body">
+            <h3>Rica-Rica Tongkol</h3>
+            <h6></h6>
+            <div class="rating">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            </div>
+  
+            <p>Rp 20.000 <i class="fa-solid fa-credit-card"></i></p>
+          </div>
+        </div>
+      </div>
+  
+  
+    </div>
+  
+  <!-- Footer Start -->
+<footer id="footer">
+    <div class="f-content">
+      <div class="f-logo"><img src="images/Krem Merah Sederhana Ilustrasi Katering Rumahan Logo (1) - Copy.png" alt=""></div>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+    <br>
+    <div class="c-content">
+      &copy; Copyright SA Coding. All Rights Reserved <br>
+      <span>Designed By <a href="#">SA Coding</a></span>
+    </div>
+  </footer>
+  <!-- Footer End -->
+</body>
+  
+  
+    </div>
+  </section>
+  <!-- Our Menu End -->
+</body>
+
